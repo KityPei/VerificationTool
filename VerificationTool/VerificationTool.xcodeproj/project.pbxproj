@@ -13,7 +13,7 @@
 		4A35437A2074C6D9006902D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3543792074C6D9006902D6 /* Assets.xcassets */; };
 		4A35437D2074C6D9006902D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A35437B2074C6D9006902D6 /* LaunchScreen.storyboard */; };
 		4A3543882074C6DA006902D6 /* VerificationToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3543872074C6DA006902D6 /* VerificationToolTests.swift */; };
-		4A3543932074C703006902D6 /* KPTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3543922074C703006902D6 /* KPTouchID.swift */; };
+		4A96D1932079C1C300312EC1 /* KPTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96D1922079C1C300312EC1 /* KPTouchID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		4A3543832074C6DA006902D6 /* VerificationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3543872074C6DA006902D6 /* VerificationToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationToolTests.swift; sourceTree = "<group>"; };
 		4A3543892074C6DA006902D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A3543922074C703006902D6 /* KPTouchID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPTouchID.swift; sourceTree = "<group>"; };
+		4A96D1922079C1C300312EC1 /* KPTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPTouchID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				4A3543722074C6D8006902D6 /* AppDelegate.swift */,
 				4A3543742074C6D8006902D6 /* ViewController.swift */,
-				4A3543922074C703006902D6 /* KPTouchID.swift */,
+				4A96D1912079C1C300312EC1 /* TouchID */,
 				4A3543762074C6D8006902D6 /* Main.storyboard */,
 				4A3543792074C6D9006902D6 /* Assets.xcassets */,
 				4A35437B2074C6D9006902D6 /* LaunchScreen.storyboard */,
@@ -97,6 +97,14 @@
 				4A3543892074C6DA006902D6 /* Info.plist */,
 			);
 			path = VerificationToolTests;
+			sourceTree = "<group>";
+		};
+		4A96D1912079C1C300312EC1 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				4A96D1922079C1C300312EC1 /* KPTouchID.swift */,
+			);
+			path = TouchID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3543932074C703006902D6 /* KPTouchID.swift in Sources */,
+				4A96D1932079C1C300312EC1 /* KPTouchID.swift in Sources */,
 				4A3543752074C6D8006902D6 /* ViewController.swift in Sources */,
 				4A3543732074C6D8006902D6 /* AppDelegate.swift in Sources */,
 			);
