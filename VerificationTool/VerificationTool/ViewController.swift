@@ -14,19 +14,44 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        KPTouchID.touchIdEvaluatePolicy("验证TouchID", "密码登录") { (completeType: KPTouchIDCompleteType) in
+        self.title = "Home"
+    }
+    
+    @IBAction func onClickToTouchIDVerification(_ sender: Any) {
+        KPTouchID.touchIdEvaluatePolicy("验证TouchID", "手势解锁") { (completeType: KPTouchIDCompleteType) in
             switch completeType {
             case .success:
-                print("=======验证成功")
+                let vc = FirstViewController()
+                vc.title = "私密相册"
+                self.navigationController?.pushViewController(vc, animated: true)
             case .cancel:
                 print("=======取消验证")
             case .doother:
                 print("=======使用其他验证方式")
+            case .noTouchId:
+                print("======未设置TouchID或者不支持TouchID")
             default:
                 print("=======验证失败")
             }
         }
     }
+    
+    
+    @IBAction func onClickToGestrueVerification(_ sender: Any) {
+        let vc = GesturesViewController()
+        
+        let selectedIDs = UserDefaults.standard.object(forKey: "GESTUREPASSORD") as? String ?? ""
+        vc.title = (selectedIDs.count > 0) ? "解锁手势" : "设置手势锁"
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

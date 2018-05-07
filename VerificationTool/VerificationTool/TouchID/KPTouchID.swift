@@ -15,6 +15,7 @@ enum KPTouchIDCompleteType: Int {
     case cancel
     case doother
     case fail
+    case noTouchId
 }
 
 typealias KPTouchIDComplete = (_ type: KPTouchIDCompleteType) -> Void
@@ -39,7 +40,7 @@ class KPTouchID: NSObject {
         if !canUseTouchId {
             if complete != nil {
                 DispatchQueue.main.async {
-                    complete!(.fail)
+                    complete!(.noTouchId)
                 }
             }
             return

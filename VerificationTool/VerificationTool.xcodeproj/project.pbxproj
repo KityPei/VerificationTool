@@ -13,6 +13,14 @@
 		4A35437A2074C6D9006902D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3543792074C6D9006902D6 /* Assets.xcassets */; };
 		4A35437D2074C6D9006902D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A35437B2074C6D9006902D6 /* LaunchScreen.storyboard */; };
 		4A3543882074C6DA006902D6 /* VerificationToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3543872074C6DA006902D6 /* VerificationToolTests.swift */; };
+		4A642EF6209C2BC000640948 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A642EF4209C2BC000640948 /* FirstViewController.swift */; };
+		4A642EF7209C2BC000640948 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A642EF5209C2BC000640948 /* FirstViewController.xib */; };
+		4A642EFA209C2BCD00640948 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A642EF8209C2BCD00640948 /* SecondViewController.swift */; };
+		4A642EFB209C2BCD00640948 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A642EF9209C2BCD00640948 /* SecondViewController.xib */; };
+		4A642EFD209C364A00640948 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A642EFC209C364A00640948 /* PointView.swift */; };
+		4A642EFF209C425100640948 /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A642EFE209C425100640948 /* GesturesView.swift */; };
+		4A7DA51820A01D0D00A788C7 /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7DA51620A01D0D00A788C7 /* GesturesViewController.swift */; };
+		4A7DA51920A01D0D00A788C7 /* GesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7DA51720A01D0D00A788C7 /* GesturesViewController.xib */; };
 		4A96D1932079C1C300312EC1 /* KPTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96D1922079C1C300312EC1 /* KPTouchID.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +45,15 @@
 		4A3543832074C6DA006902D6 /* VerificationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3543872074C6DA006902D6 /* VerificationToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationToolTests.swift; sourceTree = "<group>"; };
 		4A3543892074C6DA006902D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A642EED209C260800640948 /* VerificationTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerificationTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A642EF4209C2BC000640948 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4A642EF5209C2BC000640948 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		4A642EF8209C2BCD00640948 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4A642EF9209C2BCD00640948 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		4A642EFC209C364A00640948 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
+		4A642EFE209C425100640948 /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
+		4A7DA51620A01D0D00A788C7 /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
+		4A7DA51720A01D0D00A788C7 /* GesturesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GesturesViewController.xib; sourceTree = "<group>"; };
 		4A96D1922079C1C300312EC1 /* KPTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPTouchID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +98,19 @@
 			children = (
 				4A3543722074C6D8006902D6 /* AppDelegate.swift */,
 				4A3543742074C6D8006902D6 /* ViewController.swift */,
+				4A642EF4209C2BC000640948 /* FirstViewController.swift */,
+				4A642EF5209C2BC000640948 /* FirstViewController.xib */,
+				4A642EF8209C2BCD00640948 /* SecondViewController.swift */,
+				4A642EF9209C2BCD00640948 /* SecondViewController.xib */,
+				4A7DA51620A01D0D00A788C7 /* GesturesViewController.swift */,
+				4A7DA51720A01D0D00A788C7 /* GesturesViewController.xib */,
+				4A96D1942079C1F800312EC1 /* GestrueID */,
 				4A96D1912079C1C300312EC1 /* TouchID */,
 				4A3543762074C6D8006902D6 /* Main.storyboard */,
 				4A3543792074C6D9006902D6 /* Assets.xcassets */,
 				4A35437B2074C6D9006902D6 /* LaunchScreen.storyboard */,
 				4A35437E2074C6D9006902D6 /* Info.plist */,
+				4A642EED209C260800640948 /* VerificationTool-Bridging-Header.h */,
 			);
 			path = VerificationTool;
 			sourceTree = "<group>";
@@ -105,6 +130,15 @@
 				4A96D1922079C1C300312EC1 /* KPTouchID.swift */,
 			);
 			path = TouchID;
+			sourceTree = "<group>";
+		};
+		4A96D1942079C1F800312EC1 /* GestrueID */ = {
+			isa = PBXGroup;
+			children = (
+				4A642EFC209C364A00640948 /* PointView.swift */,
+				4A642EFE209C425100640948 /* GesturesView.swift */,
+			);
+			path = GestrueID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +191,7 @@
 				TargetAttributes = {
 					4A35436E2074C6D8006902D6 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					4A3543822074C6DA006902D6 = {
 						CreatedOnToolsVersion = 9.3;
@@ -188,9 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7DA51920A01D0D00A788C7 /* GesturesViewController.xib in Resources */,
 				4A35437D2074C6D9006902D6 /* LaunchScreen.storyboard in Resources */,
 				4A35437A2074C6D9006902D6 /* Assets.xcassets in Resources */,
 				4A3543782074C6D8006902D6 /* Main.storyboard in Resources */,
+				4A642EF7209C2BC000640948 /* FirstViewController.xib in Resources */,
+				4A642EFB209C2BCD00640948 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +248,12 @@
 			files = (
 				4A96D1932079C1C300312EC1 /* KPTouchID.swift in Sources */,
 				4A3543752074C6D8006902D6 /* ViewController.swift in Sources */,
+				4A642EF6209C2BC000640948 /* FirstViewController.swift in Sources */,
+				4A642EFA209C2BCD00640948 /* SecondViewController.swift in Sources */,
+				4A7DA51820A01D0D00A788C7 /* GesturesViewController.swift in Sources */,
+				4A642EFF209C425100640948 /* GesturesView.swift in Sources */,
 				4A3543732074C6D8006902D6 /* AppDelegate.swift in Sources */,
+				4A642EFD209C364A00640948 /* PointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -357,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -370,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8X5M933S34;
 				INFOPLIST_FILE = VerificationTool/Info.plist;
@@ -380,6 +424,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katy.VerificationTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VerificationTool/VerificationTool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8X5M933S34;
 				INFOPLIST_FILE = VerificationTool/Info.plist;
@@ -399,6 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katy.VerificationTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VerificationTool/VerificationTool-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
